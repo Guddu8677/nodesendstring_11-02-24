@@ -23,8 +23,8 @@ app.get("/query" , function(req , res){
     // res.status(200).json({
     //     msg: ans
     // });
-    // res.send(String(ans));
-    res.send(5050)
+    res.send(String(ans));
+  //  res.send(5050)
 });
 
 app.listen(3000);
